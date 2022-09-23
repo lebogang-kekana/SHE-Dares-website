@@ -1,0 +1,22 @@
+.section
+{
+   background-image: url("../assets/aws.webp");
+   color:lightgrey;
+}
+.nav-tabs{
+	float: left;
+  	margin-right: 20px;
+  	border: 1px solid #ccc;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+	background: #ddd;  
+}
+.nav-tabs>li{
+	float: none;
+}
+.nav-tabs>li>a{
+	margin-right: 0;  
+}
+.tab-content{
+	border-top: 1px solid #ccc; 
+}

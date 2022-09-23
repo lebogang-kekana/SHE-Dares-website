@@ -1,19 +1,9 @@
 import React from "react"
+import ReactDOM from "react-dom"
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-import { render } from "react-dom"
 
-import { BrowserRouter } from "react-router-dom"
+import TodoContainer from "./components/TodoContainer"
 
-import App from "./App"
 
-render(
-
-  <BrowserRouter>
-
-    <App />
-
-  </BrowserRouter>,
-
-  document.querySelector("#root")
-
-)
+ReactDOM.render(<TodoContainer />, document.getElementById("root"))
