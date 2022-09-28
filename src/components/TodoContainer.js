@@ -1,20 +1,15 @@
 import React from "react"
-import { Button } from "bootstrap";
-import Col from 'react-bootstrap/Col';
-import Nav from 'react-bootstrap/Nav';
-import Row from 'react-bootstrap/Row';
-import Tab from 'react-bootstrap/Tab';
-import Accordion from 'react-bootstrap/Accordion';
-import background from "../assets/AWS-Cert-banner1536x768.png"
-
+import {Button, Col, Nav, Row, Tab, Accordion} from 'react-bootstrap';
+import background from "../assets/AWS-Cert-banner-1536x768.png"
+import "../styles/content.css"
 
 const home = () => {
     return (
         
-        <div className="section" style={{color:"#707070"}}>
+        <div className="section">
             
-            <div style={{backgroundImage:"url({background})"}}>
-                <h1>SHE DARES AWS CLOUD JOURNEY</h1>
+            <div>
+            <img src={background} alt="Girlcode-banner" width={182}></img>
                 
             </div>
             <div>
@@ -55,7 +50,7 @@ const home = () => {
                 <li>
                 Live Instructor led cloud essentials training on <strong>29th October from 9am – 12</strong>
                 </li>
-                <li></li>
+                
                 <li>
                 Review with an AWS and Standard Bank Cloud Ambassador at an Exam Readiness session.
                 </li>

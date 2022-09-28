@@ -1,7 +1,13 @@
 .section
 {
-   background-image: url("../assets/aws.webp");
-   color:lightgrey;
+   color:black;
+   height: 100%;
+  
+}
+img{
+	padding: 0;
+	height: 30%;
+	width:100%;
 }
 .nav-tabs{
 	float: left;
@@ -9,7 +15,7 @@
   	border: 1px solid #ccc;
 }
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
-	background: #ddd;  
+	background: #e94155;  
 }
 .nav-tabs>li{
 	float: none;
